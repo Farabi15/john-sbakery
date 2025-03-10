@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4231903150571503"
+     crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-4231903150571503">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9QT68Y0BD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y9QT68Y0BD');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informasi Seputar Moqqa Coffee By Vienna Batam Menu Makanan dan Minumam Terbaik Se kota Batam">
+    <meta name="keywords" content="Moqqa Coffee By Vienna, Recipe Menu, Cefe Di Batam, Tempat Nongkrong di Batam">
+    <meta name="author" content="Moqqa Coffee By Vienna">
+    <title>
+
+
+     [Recipes Menu]</title>
+    <link rel="icon" href="https://logo.clearbit.com/anchorcafeandroastery.com" type="image/x-icon">
+    <style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #008a8a;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo a {
+    font-size: 2rem;
+    color: #008a8a;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 30px; /* Increased margin to add space between logo and menu */
+    animation: logoColorChange 4s infinite; /* Animation to change logo color */
+}
+
+@keyframes logoColorChange {
+    0% {
+        color: #008a8a;
+    }
+    25% {
+        color: #d9e7e7;
+    }
+    50% {
+        color: #008a8a;
+    }
+    75% {
+        color: #d9e7e7;
+    }
+    100% {
+        color: #008a8a;
+    }
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center menu items */
+    margin-top: 0;
+    padding: 0;
+}
+
+header ul li {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+header ul li:first-child {
+    margin-left: 0; /* Remove left margin from the first item */
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #008a8a;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20230425/pngtree-the-interior-of-a-bakery-displaying-various-baked-goods-image_2556152.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #008a8a;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85); /* Semi-transparent dark overlay */
+}
+
+.hero-content {
+    z-index: 1;
+    padding: 20px;
+    color: #d9e7e7;
+    max-width: 80%;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.cta-btn {
+    background-color: #008a8a;
+    color: #d9e7e7;
+    padding: 20px 35px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #D4600D;
+    transform: scale(1.05);
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto; /* Menambahkan scroll pada modal jika konten lebih panjang */
+}
+
+/* Konten Modal */
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    max-width: 600px;
+    max-height: 80vh; /* Menentukan batas tinggi modal */
+    overflow-y: auto; /* Scroll vertikal jika konten melebihi batas */
+    border-radius: 10px;
+}
+
+/* Tombol Close */
+.close {
+    color: #FF6200;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+footer ul li a:hover {
+    color: #FF6200;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .cta-btn {
+        padding: 10px 30px;
+        font-size: 1.1rem;
+    }
+
+    header .logo a {
+        font-size: 1.7rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+
+    header .logo a {
+        font-size: 1.5rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .cta-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+
+    header .logo a {
+        font-size: 1.3rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 8px;
+    }
+}
+
+
+/* Job Listings Section (Grid 3 Kolom Horizontal) */
+.job-listings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Membuat 3 kolom dalam satu baris */
+    gap: 20px; /* Memberikan jarak antar elemen */
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.job-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Pastikan gambar dalam setiap job item memiliki lebar yang tepat */
+.job-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.job-item h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.job-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.job-item .apply-btn {
+    background-color: #FF740F;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+}
+
+.job-item .apply-btn:hover {
+    background-color: #D4600D;
+    transform: scale(1.05);
+}
+
+/* Modal for Apply Now */
+#applyModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.modal-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+.modal-content #modalTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.modal-content #modalDescription {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Close Button */
+.close {
+    color: #FF6200;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .job-listings {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolom pada layar lebih kecil */
+    }
+}
+
+@media (max-width: 768px) {
+    .job-listings {
+        grid-template-columns: 1fr; /* 1 kolom pada layar lebih kecil */
+    }
+}
+
+/* FAQ CSS */
+  .faq-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .faq-item {
+    background-color: #f9f9f9;
+    border-left: 5px solid #FF6200;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .faq-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    padding: 20px;
+  }
+
+  .faq-item p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .faq-item a {
+    color: #FF6200;
+    text-decoration: none;
+  }
+
+  .faq-item a:hover {
+    text-decoration: underline;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+        <div class="logo">
+            <a href="https://png.pngtree.com/thumb_back/fh260/background/20230425/pngtree-the-interior-of-a-bakery-displaying-various-baked-goods-image_2556152.jpg" target="_blank" style="font-size: 1.8rem; color: white; text-decoration: none; font-weight: bold;">John's Bakery</a>
+        </div>
+            <ul>
+                <li><a href="#" id="aboutBtn">About Us</a></li>
+                <li><a href="#" id="servicesBtn">Our Menu</a></li>
+                <li><a href="#" id="contactBtn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>John's Bakery</h1>
+            <p>Roti Segar Setiap Hari, Dibuat dengan Cinta untuk Setiap Gigitan!</p>
+            <a href="#" id="applyBtn" class="cta-btn"><strong>SPECIAL MENU</strong></a>
+        </div>
+    </section>
+
+<!-- Job Listings Section (Grid 3 Kolom) -->
+<section class="job-listings">
+    <div class="job-item">
+        <img src="https://img.freepik.com/premium-photo/chocolate-milkshake-with-pieces-chocolate-chip-cookies_434193-2888.jpg" alt="John's Bakery">
+        <h3>Chocolate Milkshake</h3>
+        <p><strong>Chocolate Milkshake</strong> adalah minuman manis dan menyegarkan yang cocok dinikmati kapan saja.</p>
+        <br />
+        <a href="#" id="applyBtn1" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://vaya.in/recipes/wp-content/uploads/2017/12/dreamstime_xs_20047889.jpg" alt="Strawberry Milkshake">
+        <h3>Strawberry Milkshake</h3>
+        <p>adalah minuman yang manis, segar, dan cocok untuk segala suasana.</p>
+        <a href="#" id="applyBtn2" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-spectacular-3d-rendering-of-milk-splashes-as-coffee-beans-descend-image_3749131.jpg" alt="Kopi Susu">
+        <h3>Kopi Susu</h3>
+        <p>adalah minuman klasik yang menyajikan keseimbangan sempurna antara kekuatan kopi dan kelembutan susu.</p>
+        <a href="#" id="applyBtn3" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://www.maggi.my/sites/default/files/srh_recipes/ee51b5b49e6ea544d87a87bdb1ad963f.jpg" alt="Tuna Sandwich">
+        <h3>Tuna Sandwich</h3>
+        <p>adalah pilihan makanan yang lezat, sehat, dan mudah disiapkan untuk berbagai kesempatan.</p>
+        <a href="#" id="applyBtn4" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://img-global.cpcdn.com/recipes/ca49de9a20564629/680x482cq70/roti-manis-isi-coklat-foto-resep-utama.jpg" alt="Roti Isi Coklat">
+        <h3>Roti Isi Coklat</h3>
+        <p>Isian coklat yang lumer memberikan rasa manis yang menggoda.</p>
+        <a href="#" id="applyBtn5" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://primabakery.com/wp-content/uploads/2019/03/IMG_20230808_151749_406.jpg" alt="Roti Abon Sapi">
+        <h3>Roti Abon Sapi</h3>
+        <p>adalah pilihan camilan lezat dan praktis dengan perpaduan rasa gurih dari abon sapi dan kelembutan roti.</p>
+        <a href="#" id="applyBtn6" class="cta-btn">DETAILS</a>
+    </div>
+    <!-- Add more job items as needed -->
+</section>
+
+
+<section>
+  <h2>Orang lain juga bertanya</h2>
+
+  <div itemscope itemtype="https://schema.org/FAQPage">
+    <div class="faq-container">
+      
+      <!-- FAQ Item 1 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa itu John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">John's Bakery adalah toko roti yang menawarkan berbagai jenis roti, kue, dan pastry segar yang dibuat dengan bahan berkualitas tinggi.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 2 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Di mana lokasi John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">John's Bakery berlokasi di [Alamat lengkap atau kota di mana toko berada].</p>
+  </div>
+</div>
+
+<!-- FAQ Item 3 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa jam operasional John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">John's Bakery buka setiap hari dari pukul 07.00 hingga 21.00.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 4 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery menerima pesanan khusus?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima pesanan khusus untuk berbagai acara seperti ulang tahun, pernikahan, dan lainnya.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 5 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara memesan di John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Anda dapat memesan langsung di toko, melalui telepon, atau lewat situs web resmi kami.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 6 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery menyediakan layanan pengantaran?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan layanan pengantaran ke area tertentu dengan biaya tambahan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 7 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa produk unggulan di John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Produk unggulan kami termasuk croissant mentega, sourdough artisan, dan kue tar buah.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 8 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia pilihan roti bebas gluten?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki beberapa pilihan roti bebas gluten untuk pelanggan dengan kebutuhan khusus.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 9 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah bahan yang digunakan di John's Bakery alami?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami menggunakan bahan-bahan alami dan berkualitas tinggi tanpa pengawet buatan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 10 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery memiliki program loyalitas?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki program loyalitas di mana pelanggan dapat mengumpulkan poin untuk setiap pembelian.</p>
+  </div>
+</div>
+
+
+      <!-- FAQ Item 11 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery menawarkan kursus pembuatan roti?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami secara berkala mengadakan kursus pembuatan roti untuk pemula maupun tingkat lanjut.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 12 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bisakah saya memesan kue custom?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Tentu, kami menerima pesanan kue custom sesuai permintaan pelanggan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 13 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada diskon untuk pembelian dalam jumlah besar?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan diskon khusus untuk pesanan dalam jumlah besar.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 14 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara mengetahui promo terbaru di John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Anda dapat mengikuti kami di media sosial atau berlangganan newsletter untuk mendapatkan informasi terbaru.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 15 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery ramah vegan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan beberapa pilihan produk ramah vegan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 16 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bisakah saya memesan roti untuk acara perusahaan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Tentu saja, kami melayani pesanan untuk acara perusahaan dengan berbagai pilihan menu.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 17 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia voucher hadiah di John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan voucher hadiah yang bisa dibeli dan digunakan di toko kami.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 18 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery menggunakan bahan lokal?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Sebisa mungkin, kami menggunakan bahan-bahan lokal yang segar dan berkualitas tinggi.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 19 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia layanan katering di John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan layanan katering untuk berbagai acara besar atau kecil.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 20 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah roti di John's Bakery dibuat setiap hari?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, semua roti dan kue kami dibuat segar setiap hari.</p>
+  </div>
+</div>
+
+      <!-- FAQ Item 21 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada pilihan rendah gula di John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan beberapa pilihan produk rendah gula.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 22 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Berapa lama waktu yang dibutuhkan untuk pesanan khusus?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Biasanya kami memerlukan waktu 2-3 hari kerja untuk pesanan khusus.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 23 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah saya bisa mencicipi produk sebelum membeli?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami menyediakan sampel gratis untuk beberapa produk tertentu di toko kami.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 24 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery mendukung komunitas lokal?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami bekerja sama dengan petani lokal dan mendukung berbagai kegiatan komunitas.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 25 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia pilihan tanpa telur?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki beberapa pilihan produk tanpa telur untuk pelanggan dengan alergi atau preferensi khusus.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 26 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana kebijakan pengembalian produk di John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami menerima pengembalian jika terdapat masalah dengan kualitas produk dalam waktu 24 jam setelah pembelian.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 27 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada batas minimal pesanan untuk layanan pengantaran?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, ada batas minimal pesanan sebesar Rp100.000 untuk layanan pengantaran.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 28 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery menyediakan paket hampers?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan berbagai pilihan paket hampers untuk berbagai acara.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 29 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada tempat duduk di John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan area tempat duduk yang nyaman bagi pelanggan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 30 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara bergabung sebagai mitra John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Silakan hubungi kami melalui email atau telepon untuk informasi kemitraan lebih lanjut.</p>
+  </div>
+</div>
+
+
+      <!-- FAQ Item 31 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada menu musiman di John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan menu spesial yang berganti sesuai musim.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 32 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery menerima pembayaran non-tunai?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima pembayaran menggunakan kartu kredit, debit, dan e-wallet.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 33 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana saya bisa memberikan umpan balik kepada John's Bakery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Anda dapat memberikan umpan balik melalui formulir di situs web kami atau langsung di toko.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 34 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia pilihan roti organik?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki beberapa varian roti organik.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 35 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery memiliki cabang lain?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Saat ini kami memiliki beberapa cabang di berbagai kota besar.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 36 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia layanan konsultasi kue pernikahan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan layanan konsultasi untuk kue pernikahan sesuai kebutuhan Anda.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 37 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery menerima pesanan mendadak?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami akan berusaha memenuhi pesanan mendadak tergantung pada ketersediaan bahan dan waktu.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 38 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada pilihan makanan ringan selain roti?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami juga menyediakan berbagai makanan ringan seperti cookies, brownies, dan lainnya.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 39 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah John's Bakery menawarkan produk beku?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki beberapa pilihan produk beku siap panggang di rumah.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 40 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada layanan pelanggan yang bisa dihubungi?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, Anda dapat menghubungi layanan pelanggan kami di [nomor telepon atau email resmi].</p>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="#" id="aboutFooterBtn">About Us</a></li>
+            <li><a href="#" id="privacyFooterBtn">Privacy Policy</a></li>
+            <li><a href="#" id="termsFooterBtn">Terms & Conditions</a></li>
+        </ul>
+        <p>&copy; 2025 John's Bakery</p>
+</footer>
+
+<!-- Modal for About Us -->
+<div id="modal-about" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>About Us</h2>
+<p>
+
+<h2>**About Us - John's Bakery**</h2>
+<br />
+<p>Selamat datang di **John's Bakery**, destinasi terbaik untuk menikmati roti dan kue segar dengan cita rasa autentik! Kami berlokasi di Komp, Jl. Komp. Cipta Puri Blok DD No.3-4, Tiban Baru, Kec. Sekupang, Kota Batam, Kepulauan Riau 29432, siap memberikan pengalaman kuliner yang istimewa dalam suasana yang hangat dan bersahabat.</p>
+<br />
+<p>Di John's Bakery, kami menggunakan bahan-bahan berkualitas tinggi dan resep tradisional yang diwariskan dari generasi ke generasi. Dari roti klasik yang lembut hingga kue spesial untuk momen istimewa, setiap produk kami dibuat dengan cinta dan perhatian terhadap detail.</p>
+<br />
+<p>Kami buka setiap hari dari **06.00 hingga 21.00**, menjadi tempat yang sempurna untuk menikmati sarapan, camilan sore, atau memesan kue untuk perayaan spesial Anda. Dengan pelayanan yang ramah dan produk berkualitas, John's Bakery berkomitmen untuk menghadirkan kebahagiaan di setiap gigitan.</p>
+<br />
+<p>Nikmati beragam pilihan roti dan kue favoritmu di John's Bakery. Jangan lupa ikuti kami di media sosial untuk mendapatkan informasi terbaru dan penawaran menarik di **[Instagram: @johnsbakery.id](https://instagram.com/johnsbakery.id)**.</p>
+<br />
+<p>Untuk pemesanan atau informasi lebih lanjut, silakan hubungi kami di 0778326973.</p>
+<br />
+<p><strong>**John's Bakery - Freshly Baked Happiness.**</strong></p>
+
+</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Modal for Our Services -->
+<div id="modal-services" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Our Services</h2>
+<p>
+
+<h2><strong>Our Services - John's Bakery</strong></h2>
+<br />
+<p>Di <strong>John's Bakery</strong>, kami menghadirkan berbagai pilihan roti dan kue berkualitas tinggi yang dibuat dengan cinta dan bahan terbaik. Dengan layanan unggulan kami, kami siap memanjakan Anda dengan cita rasa autentik di setiap gigitan.</p>
+<br />
+
+<h3>🍰 Freshly Baked Goods</h3>
+<p>Kami menawarkan aneka roti dan kue yang selalu segar setiap hari. Mulai dari roti klasik hingga kue spesial, semua dibuat dengan resep istimewa untuk menghadirkan cita rasa yang tak terlupakan.</p>
+<br />
+
+<h3>🎉 Custom Cakes & Special Orders</h3>
+<p>Rayakan momen spesial Anda dengan kue custom dari John's Bakery. Kami menerima pesanan khusus untuk ulang tahun, pernikahan, atau acara spesial lainnya sesuai keinginan Anda.</p>
+<br />
+
+<h3>👨‍🍳 Catering & Event Packages</h3>
+<p>Ingin mengadakan acara? Kami menyediakan layanan katering dengan berbagai pilihan roti, kue, dan camilan lezat yang siap menyempurnakan momen spesial Anda.</p>
+<br />
+
+<h3>🚗 Delivery & Takeaway</h3>
+<p>Tak sempat datang langsung? Nikmati layanan takeaway dan pengantaran ke lokasi Anda. Pesan roti dan kue favorit Anda, kami antar dengan cepat dan aman.</p>
+<br />
+
+<h3>☕ Cozy Café Space</h3>
+<p>Kami juga menyediakan ruang kafe yang nyaman, tempat sempurna untuk menikmati kopi hangat dan sajian kue lezat, cocok untuk bersantai atau bertemu teman.</p>
+<br />
+
+<p>Kami buka setiap hari dari <strong>06.00 hingga 21.00</strong>. Untuk informasi lebih lanjut atau pemesanan, hubungi kami di 0778326973 atau ikuti kami di <strong><a href="https://instagram.com/johnsbakery">[Instagram: @johnsbakery]</a></strong>.</p>
+<br />
+
+<p><strong><em>John's Bakery - Freshness in Every Bite.</em></strong></p>
+
+</p>
+    </div>
+</div>
+
+
+<!-- Modal for Contact -->
+    <div id="modal-contact" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>Contact Us</h2>
+<p><strong>John's Bakery</strong><br>
+Komp, Jl. Komp. Cipta Puri Blok DD No.3-4, Tiban Baru, Kec. Sekupang, Kota Batam, Kepulauan Riau 29432<br><br>
+
+<strong>Jam Operasional:</strong><br>
+Senin: 06.00–21.00<br>
+Selasa: 06.00–21.00<br>
+Rabu: 06.00–21.00<br>
+Kamis: 06.00–21.00<br>
+Jumat: 06.00–21.00<br>
+Sabtu: 06.00–21.00<br>
+Minggu: 06.00–21.00<br><br>
+
+<strong>Telepon:</strong> 0778326973</p>
+        </div>
+    </div>
+
+
+
+
+<!-- Modal for Footer About Us -->
+    <div id="modal-footer-about" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>About Us</h2>
+<p><strong>About Us - John's Bakery</strong></p>
+<p>Selamat datang di <strong>John's Bakery</strong>, tempat di mana aroma roti segar menyambut Anda setiap hari!<br>
+Sejak didirikan pada tahun 2010, kami berkomitmen untuk menghadirkan produk roti berkualitas tinggi dengan bahan-bahan alami dan proses pembuatan yang penuh cinta.</p>
+
+<p>Di <strong>John's Bakery</strong>, kami percaya bahwa setiap gigitan harus memberikan rasa autentik dan kenikmatan sejati. Dari roti klasik hingga kue-kue inovatif, semua produk kami dibuat secara fresh setiap hari.<br>
+Kami menggunakan bahan-bahan pilihan terbaik tanpa pengawet buatan untuk menjaga keaslian rasa dan kualitas.</p>
+
+<p><strong>Misi Kami:</strong><br>
+Menyediakan roti dan kue lezat yang dibuat dengan penuh dedikasi, menjaga tradisi rasa yang autentik, dan memberikan pelayanan terbaik kepada setiap pelanggan.</p>
+
+<p>Kami bangga menjadi bagian dari momen spesial Anda, mulai dari sarapan pagi yang hangat hingga perayaan istimewa.<br>
+Kunjungi <strong>John's Bakery</strong> dan rasakan kelezatan yang tak terlupakan!</p>
+    </div>
+</div>
+
+<!-- Modal for Privacy Policy -->
+<div id="modal-footer-privacy" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Privacy Policy</h2>
+<p><strong>Kebijakan Privasi - John's Bakery</strong></p>
+
+<p><strong>1. Pengumpulan Informasi</strong><br> 
+Kami mengumpulkan informasi pribadi yang Anda berikan secara langsung saat melakukan pemesanan, mendaftar di situs kami, atau menghubungi layanan pelanggan. Informasi ini dapat mencakup nama, alamat, nomor telepon, dan alamat email Anda.</p>
+
+<p><strong>2. Penggunaan Informasi</strong><br>
+Informasi yang kami kumpulkan digunakan untuk memproses pesanan, memberikan layanan pelanggan, mengirim pembaruan mengenai pesanan, dan menawarkan promosi khusus dari John's Bakery.</p>
+
+<p><strong>3. Perlindungan Data</strong><br>
+Kami menjaga keamanan informasi pribadi Anda dengan menerapkan langkah-langkah perlindungan fisik, elektronik, dan prosedural untuk melindungi data dari akses yang tidak sah atau penggunaan yang melanggar hukum.</p>
+
+<p><strong>4. Berbagi Informasi</strong><br>
+Kami tidak membagikan informasi pribadi Anda kepada pihak ketiga tanpa persetujuan Anda, kecuali sebagaimana diwajibkan oleh hukum atau untuk memproses pesanan melalui mitra pengiriman kami.</p>
+
+<p><strong>5. Cookie dan Teknologi Pelacakan</strong><br>
+Situs web kami menggunakan cookie untuk meningkatkan pengalaman pengguna, menganalisis lalu lintas situs, dan menyediakan konten yang sesuai dengan preferensi Anda.</p>
+
+<p><strong>6. Hak Anda</strong><br>
+Anda memiliki hak untuk mengakses, memperbarui, atau menghapus informasi pribadi Anda. Jika Anda ingin menggunakan hak tersebut, silakan hubungi kami melalui informasi kontak di bawah ini.</p>
+
+<p><strong>7. Perubahan Kebijakan</strong><br>
+Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan akan diberlakukan segera setelah dipublikasikan di halaman ini.</p>
+
+<p><strong>8. Hubungi Kami</strong><br>
+Jika Anda memiliki pertanyaan atau kekhawatiran mengenai Kebijakan Privasi ini, silakan hubungi kami di:<br>
+John's Bakery<br>
+Email: info@johnsbakery.com<br>
+Telepon: 0778326973</p>
+    </div>
+</div>
+
+<!-- Modal for Terms and Conditions -->
+<div id="modal-footer-terms" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Terms and Conditions</h2>
+<p><strong>Terms and Conditions - John's Bakery</strong></p>
+
+<p><strong>1. Penerimaan Syarat dan Ketentuan</strong><br>
+Dengan menggunakan layanan dari John's Bakery, Anda dianggap telah membaca, memahami, dan menyetujui semua syarat dan ketentuan yang tercantum di bawah ini.</p>
+
+<p><strong>2. Pemesanan dan Pembayaran</strong><br>
+- Semua pesanan harus dilakukan melalui platform resmi atau langsung di toko kami.<br>
+- Pembayaran dapat dilakukan melalui metode yang disediakan, termasuk tunai, kartu kredit, atau dompet digital.<br>
+- Pesanan akan diproses setelah pembayaran diterima secara penuh.</p>
+
+<p><strong>3. Pengiriman dan Pengambilan</strong><br>
+- Pengiriman hanya tersedia di area yang telah ditentukan oleh John's Bakery.<br>
+- Waktu pengiriman bersifat estimasi dan dapat berubah karena kondisi yang tidak terduga.<br>
+- Pelanggan dapat mengambil pesanan di toko sesuai dengan waktu yang disepakati.</p>
+
+<p><strong>4. Pembatalan dan Pengembalian Dana</strong><br>
+- Pembatalan pesanan hanya dapat dilakukan dalam waktu 1 jam setelah pemesanan.<br>
+- Tidak ada pengembalian dana untuk produk yang telah dikirim kecuali terdapat kesalahan dari pihak kami.<br>
+- Jika terjadi kesalahan produk, harap hubungi kami dalam waktu 24 jam setelah menerima pesanan.</p>
+
+<p><strong>5. Kebijakan Produk</strong><br>
+- Semua produk dibuat segar setiap hari menggunakan bahan berkualitas tinggi.<br>
+- Tanggal kedaluwarsa tertera di kemasan, dan kami menyarankan konsumsi sesuai dengan panduan tersebut.<br>
+- Alergen: Beberapa produk mungkin mengandung gluten, susu, kacang, atau bahan lain yang dapat menyebabkan alergi.</p>
+
+<p><strong>6. Perubahan Syarat dan Ketentuan</strong><br>
+John's Bakery berhak untuk mengubah atau memperbarui syarat dan ketentuan ini sewaktu-waktu tanpa pemberitahuan terlebih dahulu. Pelanggan disarankan untuk memeriksa halaman ini secara berkala.</p>
+
+<p><strong>7. Kontak</strong><br>
+Untuk pertanyaan lebih lanjut, silakan hubungi kami di:<br>
+Email: support@johnsbakery.com<br>
+Telepon: 0778326973</p>
+
+<p><strong>Terima kasih telah memilih John's Bakery!</strong></p>
+    </div>
+</div>
+
+<!-- Modal Birthday Cake Chocolate Vanilla -->
+<div id="modal-apply" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Birthday Cake Chocolate Vanilla</h2>
+        <br>
+        <h3>Keistimewaan Birthday Cake Chocolate Vanilla</h3>
+        <ul>
+            <li><span itemprop="description">Rasa Lezat: Kombinasi cokelat kaya dan vanilla lembut menciptakan perpaduan rasa yang sempurna.</span></li>
+            <li><span itemprop="description">Tampilan Menarik: Dihiasi dengan krim dan taburan, cocok untuk merayakan momen spesial.</span></li>
+            <li><span itemprop="description">Tekstur Lembut: Kue ini memiliki tekstur yang moist dan lembut di setiap gigitan.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>150 gr tepung terigu</li>
+            <li>100 gr cokelat bubuk</li>
+            <li>200 gr gula pasir</li>
+            <li>3 butir telur</li>
+            <li>100 ml susu cair vanilla</li>
+            <li>150 gr mentega cair</li>
+            <li>1 sdt baking powder</li>
+            <li>Krim vanilla dan cokelat untuk dekorasi</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Birthday Cake Chocolate Vanilla</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Panaskan oven hingga 180°C dan siapkan loyang yang diolesi mentega dan diberi kertas roti.</li>
+            <li>Kocok telur dan gula hingga mengembang dan berwarna pucat.</li>
+            <li>Masukkan mentega cair dan susu vanilla, aduk rata.</li>
+            <li>Ayak tepung terigu, cokelat bubuk, dan baking powder, kemudian masukkan ke adonan secara bertahap.</li>
+            <li>Tuang adonan ke dalam loyang dan panggang selama 30-40 menit hingga matang.</li>
+            <li>Setelah dingin, hias dengan krim vanilla dan cokelat sesuai selera.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan bahan berkualitas tinggi untuk hasil yang lebih lezat.</li>
+            <li>Pastikan kue benar-benar dingin sebelum dihias untuk menghindari krim meleleh.</li>
+            <li>Tambahkan buah segar atau taburan cokelat sebagai dekorasi tambahan.</li>
+        </ol>
+        <br>
+        <p><strong>Birthday Cake Chocolate Vanilla</strong> adalah pilihan sempurna untuk merayakan hari istimewa dengan cita rasa yang lezat dan tampilan yang menggoda. Selamat mencoba!</p>
+        <br>
+        <img src="https://www.baltana.com/files/wallpapers-35/Happy-BirtHDay-Cake-HD-Wallpapers-113194.jpg" alt="Birthday Cake Chocolate Vanilla" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Chocolate Milkshake -->
+<div id="modal-apply1" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Chocolate Milkshake</h2>
+        <br>
+        <h3>Keistimewaan Chocolate Milkshake</h3>
+        <ul>
+            <li><span itemprop="description">Rasa Cokelat yang Kaya: Menggunakan cokelat berkualitas tinggi untuk rasa yang lezat dan memuaskan.</span></li>
+            <li><span itemprop="description">Penyegar yang Nikmat: Minuman dingin ini cocok dinikmati di hari yang panas atau sebagai pencuci mulut.</span></li>
+            <li><span itemprop="description">Kelembutan Krim: Tekstur creamy yang lembut memberikan pengalaman minum yang menyenangkan.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>200 ml susu cair dingin</li>
+            <li>3 sdm cokelat bubuk atau sirup cokelat</li>
+            <li>2 scoop es krim cokelat</li>
+            <li>Whipped cream (opsional untuk topping)</li>
+            <li>Taburan cokelat atau serutan cokelat (opsional)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Chocolate Milkshake</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan blender, masukkan susu cair dingin, cokelat bubuk atau sirup cokelat, dan es krim cokelat.</li>
+            <li>Blender hingga semua bahan tercampur rata dan teksturnya lembut.</li>
+            <li>Tuang milkshake ke dalam gelas saji.</li>
+            <li>Tambahkan whipped cream di atasnya dan taburi dengan serutan cokelat jika diinginkan.</li>
+            <li>Sajikan segera selagi dingin dan nikmati kesegarannya!</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan es krim cokelat berkualitas untuk rasa yang lebih kaya dan creamy.</li>
+            <li>Sesuaikan tingkat kemanisan dengan menambahkan sirup cokelat atau gula sesuai selera.</li>
+            <li>Untuk variasi rasa, tambahkan sedikit ekstrak vanila atau bubuk kayu manis.</li>
+        </ol>
+        <br>
+        <p><strong>Chocolate Milkshake</strong> adalah minuman manis dan menyegarkan yang cocok dinikmati kapan saja. Selamat mencoba!</p>
+        <br>
+        <img src="https://img.freepik.com/premium-photo/chocolate-milkshake-with-pieces-chocolate-chip-cookies_434193-2888.jpg" alt="Chocolate Milkshake" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Strawberry Milkshake -->
+<div id="modal-apply2" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Strawberry Milkshake</h2>
+        <br>
+        <h3>Keistimewaan Strawberry Milkshake</h3>
+        <ul>
+            <li><span itemprop="description">Rasa Segar dan Manis: Dibuat dari stroberi segar yang memberikan rasa alami yang lezat.</span></li>
+            <li><span itemprop="description">Minuman Penyegar: Cocok dinikmati di hari yang panas atau sebagai hidangan penutup yang menyegarkan.</span></li>
+            <li><span itemprop="description">Tekstur Creamy: Perpaduan stroberi, susu, dan es krim menciptakan tekstur lembut dan kental.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>200 ml susu cair dingin</li>
+            <li>100 gr stroberi segar (dicuci dan dibuang daunnya)</li>
+            <li>2 scoop es krim vanilla atau stroberi</li>
+            <li>2 sdm gula (opsional, sesuai selera)</li>
+            <li>Whipped cream (opsional untuk topping)</li>
+            <li>Potongan stroberi untuk hiasan (opsional)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Strawberry Milkshake</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan blender, masukkan susu cair, stroberi segar, dan es krim vanilla atau stroberi.</li>
+            <li>Tambahkan gula jika ingin rasa yang lebih manis.</li>
+            <li>Blender hingga semua bahan tercampur rata dan memiliki tekstur halus.</li>
+            <li>Tuang milkshake ke dalam gelas saji.</li>
+            <li>Tambahkan whipped cream di atasnya dan hiasi dengan potongan stroberi jika diinginkan.</li>
+            <li>Sajikan segera selagi dingin dan nikmati kesegarannya!</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan stroberi yang matang dan manis untuk rasa terbaik.</li>
+            <li>Tambahkan es batu saat memblender untuk milkshake yang lebih dingin dan kental.</li>
+            <li>Untuk rasa lebih segar, tambahkan sedikit perasan lemon atau jeruk nipis.</li>
+        </ol>
+        <br>
+        <p><strong>Strawberry Milkshake</strong> adalah minuman yang manis, segar, dan cocok untuk segala suasana. Selamat mencoba!</p>
+        <br>
+        <img src="https://vaya.in/recipes/wp-content/uploads/2017/12/dreamstime_xs_20047889.jpg" alt="Strawberry Milkshake" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Kopi Susu -->
+<div id="modal-apply3" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Kopi Susu</h2>
+        <br>
+        <h3>Keistimewaan Kopi Susu</h3>
+        <ul>
+            <li><span itemprop="description">Perpaduan Sempurna: Kombinasi antara kopi yang kuat dan susu yang creamy menciptakan rasa yang seimbang.</span></li>
+            <li><span itemprop="description">Energi Tambahan: Kafein dari kopi memberikan energi dan meningkatkan fokus.</span></li>
+            <li><span itemprop="description">Nikmat di Segala Suasana: Cocok dinikmati di pagi hari atau sebagai teman bersantai di sore hari.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso atau 150 ml kopi hitam yang diseduh</li>
+            <li>100 ml susu cair (bisa susu sapi atau susu nabati)</li>
+            <li>1-2 sdm gula atau pemanis sesuai selera (opsional)</li>
+            <li>Es batu (opsional untuk versi dingin)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Kopi Susu</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan cangkir atau gelas saji sesuai keinginan.</li>
+            <li>Tuangkan kopi yang sudah diseduh ke dalam cangkir.</li>
+            <li>Panaskan susu hingga hangat (jangan sampai mendidih) atau gunakan susu dingin untuk versi es kopi susu.</li>
+            <li>Campurkan susu ke dalam kopi secara perlahan.</li>
+            <li>Tambahkan gula atau pemanis sesuai selera, aduk hingga tercampur rata.</li>
+            <li>Jika ingin es kopi susu, tambahkan es batu sebelum menuangkan susu.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan kopi berkualitas tinggi untuk hasil rasa terbaik.</li>
+            <li>Sesuaikan perbandingan kopi dan susu sesuai selera Anda.</li>
+            <li>Tambahkan sirup vanila atau karamel untuk variasi rasa.</li>
+        </ol>
+        <br>
+        <p><strong>Kopi Susu</strong> adalah minuman klasik yang menyajikan keseimbangan sempurna antara kekuatan kopi dan kelembutan susu. Selamat mencoba!</p>
+        <br>
+        <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-spectacular-3d-rendering-of-milk-splashes-as-coffee-beans-descend-image_3749131.jpg" alt="Kopi Susu" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+<!-- Modal Tuna Sandwich -->
+<div id="modal-apply4" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Tuna Sandwich</h2>
+        <br>
+        <h3>Keistimewaan Tuna Sandwich</h3>
+        <ul>
+            <li><span itemprop="description">Sumber Protein: Tuna kaya akan protein yang baik untuk tubuh.</span></li>
+            <li><span itemprop="description">Cepat dan Praktis: Mudah dibuat dalam waktu singkat, cocok untuk sarapan atau makan siang.</span></li>
+            <li><span itemprop="description">Lezat dan Bergizi: Kombinasi tuna segar dan sayuran memberikan rasa yang seimbang dan bergizi.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>2 lembar roti tawar</li>
+            <li>100 gr tuna kaleng (dalam air atau minyak, tiriskan)</li>
+            <li>2 sdm mayones</li>
+            <li>Daun selada segar</li>
+            <li>2 iris tomat</li>
+            <li>Garam dan merica secukupnya</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Tuna Sandwich</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Campurkan tuna yang telah ditiriskan dengan mayones, garam, dan merica dalam mangkuk kecil.</li>
+            <li>Oleskan campuran tuna di atas satu lembar roti tawar.</li>
+            <li>Tambahkan daun selada dan irisan tomat di atas campuran tuna.</li>
+            <li>Tutup dengan lembar roti lainnya.</li>
+            <li>Potong menjadi dua bagian jika diinginkan dan sajikan segera.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan roti gandum untuk pilihan yang lebih sehat.</li>
+            <li>Tambahkan keju atau irisan mentimun untuk variasi rasa.</li>
+            <li>Sajikan dengan kentang goreng atau salad sebagai pelengkap.</li>
+        </ol>
+        <br>
+        <p><strong>Tuna Sandwich</strong> adalah pilihan makanan yang lezat, sehat, dan mudah disiapkan untuk berbagai kesempatan. Selamat mencoba!</p>
+        <br>
+        <img src="https://www.maggi.my/sites/default/files/srh_recipes/ee51b5b49e6ea544d87a87bdb1ad963f.jpg" alt="Tuna Sandwich" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Roti Isi Coklat -->
+<div id="modal-apply5" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Roti Isi Coklat</h2>
+        <br>
+        <h3>Keistimewaan Roti Isi Coklat</h3>
+        <ul>
+            <li><span itemprop="description">Rasa Manis yang Lezat: Isian coklat yang lumer memberikan rasa manis yang menggoda.</span></li>
+            <li><span itemprop="description">Camilan Favorit: Cocok untuk sarapan, teman minum teh, atau bekal praktis.</span></li>
+            <li><span itemprop="description">Mudah Dibuat: Bisa disiapkan dengan bahan sederhana di rumah.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>2 lembar roti tawar</li>
+            <li>2 sdm selai coklat atau coklat leleh</li>
+            <li>Mentega secukupnya (untuk olesan)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Roti Isi Coklat</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Oleskan selai coklat pada satu lembar roti tawar.</li>
+            <li>Tutup dengan lembar roti lainnya.</li>
+            <li>Olesi bagian luar roti dengan mentega.</li>
+            <li>Panggang di atas wajan datar hingga kecoklatan di kedua sisi.</li>
+            <li>Potong menjadi dua bagian dan sajikan hangat.</li>
+        </ol>
+        <br>
+        <img src="https://img-global.cpcdn.com/recipes/ca49de9a20564629/680x482cq70/roti-manis-isi-coklat-foto-resep-utama.jpg" alt="Roti Isi Coklat" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Roti Abon Sapi -->
+<div id="modal-apply6" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Roti Abon Sapi</h2>
+        <br>
+        <h3>Manfaat Roti Abon Sapi</h3>
+        <ul>
+            <li><span itemprop="description">Sumber Energi: Roti memberikan karbohidrat sebagai sumber energi utama bagi tubuh.</span></li>
+            <li><span itemprop="description">Protein Hewani: Abon sapi mengandung protein tinggi yang baik untuk membangun dan memperbaiki jaringan tubuh.</span></li>
+            <li><span itemprop="description">Camilan Praktis: Mudah dibawa dan dikonsumsi di mana saja sebagai camilan lezat dan mengenyangkan.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>2 lembar roti tawar</li>
+            <li>50 gram abon sapi</li>
+            <li>1 sdm mayones</li>
+            <li>1 sdm saus sambal (opsional)</li>
+            <li>Mentega untuk olesan</li>
+            <li>Daun seledri cincang untuk hiasan (opsional)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Roti Abon Sapi</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Oleskan mentega di permukaan roti tawar secara merata.</li>
+            <li>Tambahkan mayones dan saus sambal di salah satu sisi roti sesuai selera.</li>
+            <li>Taburkan abon sapi di atas lapisan mayones hingga merata.</li>
+            <li>Tutup dengan lembaran roti lainnya, tekan perlahan agar abon menempel.</li>
+            <li>Potong roti menjadi dua bagian atau sesuai selera.</li>
+            <li>Hiasi dengan daun seledri jika diinginkan dan sajikan segera.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan abon sapi berkualitas untuk rasa yang lebih gurih dan tekstur yang lembut.</li>
+            <li>Tambahkan keju parut untuk cita rasa yang lebih kaya.</li>
+            <li>Roti panggang sebentar di wajan atau toaster agar lebih renyah.</li>
+        </ol>
+        <br>
+        <p><strong>Roti Abon Sapi</strong> adalah pilihan camilan lezat dan praktis dengan perpaduan rasa gurih dari abon sapi dan kelembutan roti.</p>
+        <br>
+        <img src="https://primabakery.com/wp-content/uploads/2019/03/IMG_20230808_151749_406.jpg" alt="Roti Abon Sapi" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+
+<script>
+        // Modal functionality for Header
+        function showModal(modalId) {
+            const modal = document.getElementById(modalId);
+            const closeModal = modal.querySelector('.close');
+            modal.style.display = 'block';
+
+            closeModal.addEventListener('click', () => {
+                modal.style.display = 'none';
+            });
+
+            window.onclick = function(event) {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            };
+        }
+
+        // Apply Modals
+       document.getElementById('applyBtn').addEventListener('click', () => showModal('modal-apply'));
+
+
+       // Apply Modals
+       document.getElementById('applyBtn1').addEventListener('click', () => showModal('modal-apply1'));
+       document.getElementById('applyBtn2').addEventListener('click', () => showModal('modal-apply2'));
+       document.getElementById('applyBtn3').addEventListener('click', () => showModal('modal-apply3'));
+       document.getElementById('applyBtn4').addEventListener('click', () => showModal('modal-apply4'));
+       document.getElementById('applyBtn5').addEventListener('click', () => showModal('modal-apply5'));
+       document.getElementById('applyBtn6').addEventListener('click', () => showModal('modal-apply6'));
+
+        // Header Modals
+        document.getElementById('aboutBtn').addEventListener('click', () => showModal('modal-about'));
+        document.getElementById('servicesBtn').addEventListener('click', () => showModal('modal-services'));
+        document.getElementById('contactBtn').addEventListener('click', () => showModal('modal-contact'));
+
+        // Footer Modals
+        document.getElementById('aboutFooterBtn').addEventListener('click', () => showModal('modal-footer-about'));
+        document.getElementById('privacyFooterBtn').addEventListener('click', () => showModal('modal-footer-privacy'));
+        document.getElementById('termsFooterBtn').addEventListener('click', () => showModal('modal-footer-terms'));
+    </script>
+
+
+
+</body>
+</html>
